@@ -1,0 +1,189 @@
+/*Custom CSS for Thomann.de to enable DARK MODE!
+V0.01, so all bug reports and enhancements are welcome (give a link to the page where issue arises)
+Or you can fix it yourself and give me pull request on github: https://github.com/mtaalas/CSS-files-for-darkmode
+
+Thank you!
+
+By: Mio Taalas
+*/
+
+@namespace url(http://www.w3.org/1999/xhtml);
+/* DO NOT SHOW BACKGOUNDPICTURE */
+ /* .lr-page-wallpaper-wrapper {
+    display: none;
+  }*/
+  
+  /* SET GADIENT ON THE LEFT TO BLACK*/
+  body {
+    background: #303030!important;
+  }
+  
+  /* REMOVE LEFT MARGIN */
+/*  .lr-page {
+    margin: 0!important;
+  }*/
+  
+  /* CENTER CONTENT */
+ /* .lr-page-content-wrapper {
+    width: 500px;
+    display: block;
+    margin: 0 auto!important;
+  }*/
+
+.fx-product-list-entry .product__image {
+    mix-blend-mode: initial;
+}
+
+.fx-product-list-entry .product__price {
+    color: #f0f0f0;
+}
+
+.fx-header {
+    background-color: #303030;
+}
+
+.fx-header-categories {
+    background-color: #1c1c1c;
+}
+
+.fx-flyin > .content-holder .fx-flyin-content__header {
+    background: #282626;
+}
+
+.fx-flyin > .content-holder {
+    background-color: #282626;
+}
+
+.fx-product-list-entry {
+    background-color: #454040;
+}
+
+.fx-product-list-entry .product__image {
+     mix-blend-mode: initial;
+}
+
+.theme-fx {
+    font-family: 'Open Sans',Verdana,Tahoma,Arial,Helvetica,sans-serif;
+    color: #f0f0f0; /*Top menu_open__trashcan_edit_list_title*/
+}
+
+.theme-fx a--primary, .theme-fx a[class$="--active"] {
+    color: #ffffff; /*Side panel current wishlist*/
+}
+
+.theme-fx a {
+    color: #f0f0f0; /*item_title_color*/
+}
+
+/*.theme-fx a {
+    color: #ffffff;
+}*/
+
+.fx-product-box .price {
+    color: #f0f0f0;
+}
+
+a.fx-product-box:hover .description {
+    color: #d0f6d0;
+}
+
+.fx-category-grid__item:hover .fx-category-grid__title {
+    color: #d0f6d0
+}
+
+.fx-product-box .description {
+    color: #f0f0f0;
+}
+
+.fx-flyin-nav.drilldown-menu .fx-flyin-nav__menu {
+    background-color: #282626;
+}
+
+.fx-flyin-nav .fx-flyin-nav__item {
+    color: #f0f0f0; /*Wishlist items*/
+}
+
+body a {
+    color: #f000f0; /**meny_titles*/
+}
+
+.fx-flyin-nav .fx-flyin-nav__item {
+    color: #f0f0f0;
+}
+
+.fx-product-list-entry .product__image {
+    mix-blend-mode: initial;
+}
+
+.fx-input-select-simple__label {
+    color: #ff0909;
+}
+
+.fx-overlay {
+    background-color: rgb(18 18 18 / 41%);
+}
+
+.fx-button[class].fx-button--text-button, .fx-button[class].fx-button--text-button-primary {
+    color: #ffffff;
+}
+
+.fx-tabs__list .fx-tabs__tab.active .fx-tabs__tab-button {
+    color: #a3e5ff;
+}
+
+.fx-tabs__list .fx-tabs__tab.active .fx-tabs__tab-button:after {
+    background-color: #ffffff;
+}
+
+.fx-flyin-nav.accordion-menu .fx-flyin-nav__menu {
+    background-color: #282626;
+}
+
+.fx-category-grid.fx-category-grid--with-background .fx-category-grid__item {
+    background-color: #2826261;
+}
+
+.fx-hero-introduction__bg-prod-news:after {
+    background: linear-gradient(to bottom,rgba(255,255,255,0),#fff),linear-gradient(256deg,#7de2fc,#b9b6e5)
+}
+
+.fx-input-checkbox__label {
+    color: #ffffff;
+}
+
+.fx-product-list-entry .product__description {
+    color: #ffffff;
+}
+
+.fx-breadcrumb.fx-breadcrumb--skin-light .stages__link {
+    color: #ffffff;
+}
+
+.fx-breadcrumb.fx-breadcrumb--skin-light .stages__home-icon {
+    color: #ffffff;
+}
+
+.fx-breadcrumb.fx-breadcrumb--skin-light .stages__item:not(:first-child)::before, .fx-breadcrumb.fx-breadcrumb--skin-light .stages__item:not(:first-child)::after {
+    background: rgb(255 255 255 / 24%);
+    background-color: rgba(255, 255, 255, 0.24);
+}
+
+.fx-content-product .product-media-gallery .navigator__item {
+    mix-blend-mode: initial;
+}
+
+.fx-content-product .product-media-gallery .navigator__item-image {
+    mix-blend-mode: initial;
+}
+
+.fx-mix-blend-mode--multiply {
+    mix-blend-mode: initial;
+}
+
+.fx-content-mythomann .mythomann-order-teaser__item-image {
+    mix-blend-mode: initial;
+}
+
+.fx-content-mythomann .article__image {
+    mix-blend-mode: initial;
+}
