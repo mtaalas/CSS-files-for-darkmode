@@ -187,3 +187,7 @@ body a {
 .fx-content-mythomann .article__image {
     mix-blend-mode: initial;
 }
+
+.fx-content-search .key-feature-filter .content__rating-stars-description {
+    color: #ffffff;
+}
