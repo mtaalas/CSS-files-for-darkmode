@@ -191,3 +191,14 @@ body a {
 .fx-content-search .key-feature-filter .content__rating-stars-description {
     color: #ffffff;
 }
+
+.fx-flyin-nav__item-wrapper--active > .fx-flyin-nav__item:focus {
+    color: #f000f0;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    font-weight: 1500;
+}
+
+.theme-fx a:active, .theme-fx a:focus {
+    color: #f000f0;
+}
